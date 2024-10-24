@@ -1,0 +1,6 @@
+@delivery.document.api_HostAddress = http://localhost:5083
+
+GET {{delivery.document.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
