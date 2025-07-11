@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delivery.document.api", "delivery.document.api\delivery.document.api.csproj", "{D9C67CBA-10B9-4130-A30E-5EE7FE93E7A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delivery.document.api", "delivery.document.api\delivery.document.api.csproj", "{D9C67CBA-10B9-4130-A30E-5EE7FE93E7A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "delivery.document.api.test.unit", "delivery.document.api.test.unit\delivery.document.api.test.unit.csproj", "{9BF0183C-082C-4E45-8758-609081566790}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "warehouse.management.application", "warehouse.management.application\warehouse.management.application.csproj", "{4C8897DA-805B-4F35-97B4-DAEAA448235B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "warehouse.document.api.AppHost", "warehouse.document.api.AppHost\warehouse.document.api.AppHost.csproj", "{78AA1ACD-7E6B-4B6F-8DF3-1E491E71A689}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "warehouse.document.api.ServiceDefaults", "warehouse.document.api.ServiceDefaults\warehouse.document.api.ServiceDefaults.csproj", "{6E216EEA-9F77-44ED-836C-1B3F0BFD6A59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{D9C67CBA-10B9-4130-A30E-5EE7FE93E7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9C67CBA-10B9-4130-A30E-5EE7FE93E7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9C67CBA-10B9-4130-A30E-5EE7FE93E7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF0183C-082C-4E45-8758-609081566790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF0183C-082C-4E45-8758-609081566790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF0183C-082C-4E45-8758-609081566790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF0183C-082C-4E45-8758-609081566790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8897DA-805B-4F35-97B4-DAEAA448235B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8897DA-805B-4F35-97B4-DAEAA448235B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8897DA-805B-4F35-97B4-DAEAA448235B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8897DA-805B-4F35-97B4-DAEAA448235B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AA1ACD-7E6B-4B6F-8DF3-1E491E71A689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AA1ACD-7E6B-4B6F-8DF3-1E491E71A689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AA1ACD-7E6B-4B6F-8DF3-1E491E71A689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AA1ACD-7E6B-4B6F-8DF3-1E491E71A689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E216EEA-9F77-44ED-836C-1B3F0BFD6A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E216EEA-9F77-44ED-836C-1B3F0BFD6A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E216EEA-9F77-44ED-836C-1B3F0BFD6A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E216EEA-9F77-44ED-836C-1B3F0BFD6A59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

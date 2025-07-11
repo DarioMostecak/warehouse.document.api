@@ -13,7 +13,6 @@ namespace delivery.document.api.Models.DeliveryDocuments
     {
         public Guid DeliveryDocumentID { get; set; }
         public Guid ShipmentID { get; set; }
-
         public string DocumentType { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }

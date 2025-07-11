@@ -36,7 +36,7 @@ namespace delivery.document.api.Services.Foundations.Products
             catch (MongoWriteException mongoDuplicateKeyException)
             {
                 var alreadyExistsProductException =
-                    new AlreadyExistsProductExceptions(mongoDuplicateKeyException);
+                    new AlreadyExistsProductException(mongoDuplicateKeyException);
 
                 throw CreateAndLogValidationException(alreadyExistsProductException);
             }

@@ -1,3 +1,4 @@
+
 using delivery.document.api.Brokers.DateTimes;
 using delivery.document.api.Brokers.Loggings;
 using delivery.document.api.Brokers.Storages;
@@ -12,6 +13,7 @@ using delivery.document.api.Services.Foundations.Orders;
 using delivery.document.api.Services.Foundations.Payments;
 using delivery.document.api.Services.Foundations.Products;
 using delivery.document.api.Services.Foundations.Shipments;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,7 +36,6 @@ builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddTransient<IShipmentService, ShipmentService>();
 #endregion
 
-
 #region Mongo options
 var mongoDbOptions = new MongoDbOptions();
 builder.Configuration.Bind(nameof(MongoDbOptions), mongoDbOptions);
@@ -46,7 +47,6 @@ builder.Services.AddScoped<MongoDbOptions>();
 
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

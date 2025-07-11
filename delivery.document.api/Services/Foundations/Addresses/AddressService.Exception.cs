@@ -3,8 +3,8 @@
 // Copyright (c) 2024 Dario Mostecak.
 // ---------------------------------------------------------------
 
-using delivery.document.api.Models.Addresses.Exceptions;
 using delivery.document.api.Models.Addresses;
+using delivery.document.api.Models.Addresses.Exceptions;
 using MongoDB.Driver;
 
 namespace delivery.document.api.Services.Foundations.Addresses
@@ -65,6 +65,9 @@ namespace delivery.document.api.Services.Foundations.Addresses
             }
             catch (MongoException mongoException)
             {
+                var failedAddressServiceException =
+                    new FailedAddressServiceException(mongoException);
+
                 throw CreateAndLogDependencyException(mongoException);
             }
             catch (Exception exception)

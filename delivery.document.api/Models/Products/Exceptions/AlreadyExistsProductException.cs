@@ -7,9 +7,9 @@ using delivery.document.api.Models.ExceptionModels;
 
 namespace delivery.document.api.Models.Products.Exceptions
 {
-    public class AlreadyExistsProductExceptions : ExceptionModel
+    public class AlreadyExistsProductException : ExceptionModel
     {
-        public AlreadyExistsProductExceptions(Exception innerException)
+        public AlreadyExistsProductException(Exception innerException)
            : base(message: "Product with same id already exists.", innerException) { }
     }
 }

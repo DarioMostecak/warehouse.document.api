@@ -4,7 +4,6 @@
 // ---------------------------------------------------------------
 
 using delivery.document.api.Attributes;
-using delivery.document.api.Models.Customers;
 
 namespace delivery.document.api.Models.Addresses
 {

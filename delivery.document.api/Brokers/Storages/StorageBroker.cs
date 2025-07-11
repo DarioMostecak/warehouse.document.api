@@ -37,7 +37,8 @@ namespace delivery.document.api.Brokers.Storages
 
         public static void RegisterClassMap()
         {
-           RegisterCustomerMap();
+            RegisterCustomerMap();
         }
     }
+
 }
